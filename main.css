@@ -2,10 +2,47 @@
 {
   --uncblue: RGB(1,45,91);
   --uncgold: REG(254,189,54);
-  --uncgray: REG(235,235,235);
+  --uncgray: REG(235,200,200);
 
-background-color: var(--uncgray);
-  
+  background-color: var(--uncgray);
 }
 
+h1
+{
+  font-size: 48px;
+  text-align: center;
+}
 
+img
+{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul li
+{
+  font-weight: bold;
+}
+
+.footertext
+{
+  display: block;
+  margin-top:200px;
+  text-align: center;
+}
+
+h2 + p
+{
+  text-align: center;
+}
+section
+{ 
+  text-align: center;
+}
+
+h2 + p + a
+{
+  text-align: center;
+  display: block;
+}
